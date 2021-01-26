@@ -1,0 +1,12 @@
+{
+    "name": "fyodor/jira_time_tracking",
+    "authors": [
+        {
+            "name": "Fyodor V",
+            "email": "4fyodor@gmail.com"
+        }
+    ],
+    "require": {
+        "lesstif/php-jira-rest-client": "^2.5"
+    }
+}
