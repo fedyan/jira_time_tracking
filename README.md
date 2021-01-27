@@ -1,5 +1,5 @@
 # jira_time_tracking
-### Перенос worklog tracking из одной jira в worklog в одной задаче в другой jira 
+### Перенос worklog tracking из одной jira в worklog другой jira 
 
 ###### Установка:
 
