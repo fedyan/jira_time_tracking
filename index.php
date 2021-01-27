@@ -61,12 +61,6 @@ try {
     $this->assertTrue(false, 'something failed : '.$e->getMessage());
 }
 
-/*$worklogs = $fromJiraService->getWorklog($issueKey)->getWorklogs();
-var_dump($worklogs);*/
-
-
-
-
 
 /**
  * @param $worklogs
