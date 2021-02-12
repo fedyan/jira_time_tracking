@@ -1,7 +1,10 @@
 <?php
-require './vendor/autoload.php';
-require 'JiraTimeTracker.php';
-require 'DayLoggedTimeDTO.php';
+$_SERVER['DOCUMENT_ROOT'] = dirname(__FILE__);
+
+require $_SERVER['DOCUMENT_ROOT'].'/vendor/autoload.php';
+require $_SERVER['DOCUMENT_ROOT'].'/JiraTimeTracker.php';
+require $_SERVER['DOCUMENT_ROOT'].'/DayLoggedTimeDTO.php';
+
 
 
 $jiraTimeTracker = new JiraTimeTracker();
