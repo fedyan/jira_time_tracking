@@ -5,6 +5,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/vendor/autoload.php';
 require $_SERVER['DOCUMENT_ROOT'].'/JiraTimeTracker.php';
 require $_SERVER['DOCUMENT_ROOT'].'/DayLoggedTimeDTO.php';
 
+echo "VPN connection must be enabled!";
 
 
 $jiraTimeTracker = new JiraTimeTracker();
